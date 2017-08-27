@@ -3,7 +3,7 @@ body, html {
     height: 100%;
 }
 
-body, h1, h2, h3 {
+body, h1, h2, h3,h4 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
@@ -17,7 +17,7 @@ a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:h
 }
 
 footer {
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: #f8f8f8;
 }
 
@@ -65,19 +65,14 @@ p.copyright {
 }
 
 .intro-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    color: #a86464;
     height: 100%;
 }
 
 .intro-message {
     position: relative;
     padding-top: 20%;
-    padding-bottom: 20%;
 }
 
 .intro-message > h1 {

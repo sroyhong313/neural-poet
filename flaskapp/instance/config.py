@@ -1,5 +1,6 @@
 # instance/config.py
 
-SECRET_KEY = '\xec\xe0\xb8\xc19\xbc\x84\x18\xe63'
+SECRET_KEY = 'e\x1aY\xf3\x13\x05\xae\xd3\x8f5'
 
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://dt_admin:dt2016@localhost/flask_example'
+MONGO_DBNAME = 'neucomp'
+MONGO_URI = 'mongodb://localhost:27017/neucomp'
