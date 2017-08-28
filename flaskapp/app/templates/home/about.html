@@ -1,0 +1,19 @@
+<!-- app/templates/about.html -->
+
+{% extends "base.html" %}
+{% block title %} About {% endblock %}
+{% block body %}
+<div class="container">
+    <div class = "intro-header" style="padding-top: 100px">
+        <div class="row">
+            <h1> About Neural Poet </h1>
+                <p>
+                    Neural Poet is a Deep Learning Model that was created to generate poems. It was trained using poetry from poetryfoundation.
+                    <br/><br/> It is based on <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Andrej Karpathy's blog</a> on Recurrent Neural Network.
+                    <br/><br/> Neural-Poet is a Recurrent Neural Network (RNN) with a LSTM architecture. It was trained for 40 epochs to produce high-quality human-level poems.
+                    </br><br/> Click on "Create New Poem" to get started or browse through past poems through the search bar!
+                </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
