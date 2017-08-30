@@ -1,6 +1,6 @@
 # Neural-Poet
 
-By [Author name](author URL goes here).
+By [Sung Jae Hong](https://github.com/sroyhong313).
 
 ## Description
 Neural-Poet is a deep learning agent that has learned to write human-level poetry. It was inspired from Adrej Karpathy's Blog on [The Unreasonable Effectiveness of Recurrent Neural Networks]
